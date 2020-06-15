@@ -37,12 +37,12 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
-div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left; }
 
-.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row1, .row1 a{color: #fff; background-color: #000000;}
 .row2{color:#979797; background-color:#FFFFFF;}
-.row2 a{color:#FF9900; background-color:#FFFFFF;}
-.row3, .row3 a{color:#919191; background-color:#232323;}
+.row2 a{color:#FF9900; background-color:#FFFFFF; text-decoration: none;}
+.row3, .row3 a{color:#fff; background-color:#232323;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
@@ -84,12 +84,22 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #header #hgroup h1{font-size:36px;}
 #header #hgroup h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#232323;}
+#header nav{display: block;
+    float: right;
+    margin: -4px 0 0 0;
+    padding: 20px 0;
+    color: #C0BAB6;
+    background-color: #232323;
+    box-shadow: -1px 7px 17px 3px #688ef9;
+    border-radius: 17px;
+    border: 4px ridge #8c8cff;}
 #header nav ul{padding:0 20px;}
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
-#header nav li a{color:#C0BAB6; background-color:#232323;}
-#header nav li a:hover{color:#FF9900; background-color:#232323;}
+#header nav li a{    color: #fff;
+    background-color: #232323;
+    text-decoration: none;}
+#header nav li a:hover{color:black; background-color:#FFFCCA ;padding: 10px 2px; margin: 0px 0px; border-radius: 10px;} 
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
