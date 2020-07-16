@@ -16,7 +16,10 @@ html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
 
 a{outline:none; text-decoration:none;}
-
+::selection{
+background:#32BE8C;
+color:#ffffff;
+}
 code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
 
 .fl_left{float:left;}
