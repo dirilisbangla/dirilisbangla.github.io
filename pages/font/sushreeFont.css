@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'shusree';
+  src: url('shusree.eot');
+  src: url('shusree.woff') format('woff'),
+       url('shusree.ttf') format('truetype'),
+       url('shusree.svg#shusree') format('svg'),
+       url('shusree.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
