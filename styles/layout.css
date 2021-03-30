@@ -84,25 +84,27 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #header #hgroup{float:left; margin:0 0 20px 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
-#header #hgroup h1{font-size:36px;}
-#header #hgroup h2{font-size:13px;}
+#header #hgroup h1{font-size:36px;color: #688ef9;}
+#header #hgroup h2{font-size:13px;color: #a7a7a7;}
 
-#header nav{display: block;
+#header nav{
+    display: block;
     float: right;
     margin: -4px 0 0 0;
     padding: 20px 0;
     color: #C0BAB6;
     background-color: #232323;
-    box-shadow: -1px 7px 17px 3px #688ef9;
-    border-radius: 10px;
-    border: 1px ridge #8c8cff;}
+    box-shadow: -2px 6px 9px 0px #688ef9;
+    border-radius: 2px;
+    border: 1px ridge #8c8cff;
+    }
 #header nav ul{padding:0 20px;}
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{    color: #fff;
     background-color: #232323;
     text-decoration: none;}
-#header nav li a:hover{color:black; background-color:#FFFCCA ;padding: 10px 2px; margin: 0px 0px; border-radius: 10px;} 
+#header nav li a:hover{color: #a0a3ff;} 
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
